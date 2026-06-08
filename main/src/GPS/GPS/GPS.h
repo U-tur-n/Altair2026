@@ -5,7 +5,7 @@
 #include <TinyGPS++.h>
 
 // 名前空間ここから
-namespace gps {
+namespace GPS {
     // 他の人が読み取るための変数を変数名のみ宣言．ヘッダーファイルに変数を宣言する際は必ず"extern"をつけること．
     extern float latitude; //緯度
     extern float longitude; //経度

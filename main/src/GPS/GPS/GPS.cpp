@@ -4,10 +4,12 @@
 // ライブラリのインクルードは行わない(ヘッダーファイルですでに行っているため)
 
 // 名前空間ここから(ヘッダーファイルと同じ名前空間を定義すること)
-namespace gps {
+namespace GPS {
     // 変数の定義
     float latitude; //緯度
     float longitude; //経度
+    const int RX1_PIN = 44;
+    const int TX1_PIN = 43;
     
     // 自分だけが使う「内部変数」を定義(ヘッダーファイルでは宣言しない)
 
